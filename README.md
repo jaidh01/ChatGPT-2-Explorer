@@ -1,49 +1,45 @@
-# ChatGPT-2-Explorer
+# 🌐 ChatGPT-2-Explorer
 
-### Overview
-**ChatGPT-2-Explorer** is a conversational AI project built on the GPT-2 architecture. This repository provides tools and code for training, testing, and exploring a chatbot to understand GPT-2 architecture, designed to demonstrate conversational capabilities on custom datasets. The model is fine-tuned on conversational data to deliver interactive responses.
+### 📚 Overview
+**ChatGPT-2-Explorer** is a conversational AI project based on GPT-2 architecture, offering tools for training, testing, and exploring a chatbot to gain insights into GPT-2’s capabilities. Designed for adaptability with custom datasets, this repository demonstrates fine-tuning methods on conversational data, allowing the model to generate interactive and contextually relevant responses.
 
-### Features
-- **Custom Dataset Training**: Uses provided datasets for chatbot training.
-- **Interactive Chatbot Interface**: Enables conversation with the trained model.
-- **GPT-2 Customization**: Easily modify parameters for experimentation.
+### 🚀 Features
+- **🔄 Custom Dataset Training**: Easily adapt GPT-2 for specific conversational datasets.
+- **💬 Interactive Chatbot Interface**: Engage in real-time conversations with your model.
+- **⚙️ GPT-2 Customization**: Experiment with model parameters for tailored performance.
 
-### Files
-- **`trainig.py`**: Code for fine-tuning GPT-2 on the dataset.
-- **`chatbot.py`**: Script to initialize and interact with the trained chatbot.
-- **`torch examples.ipynb`**: Examples for PyTorch usage in the project.
-- **`vocab.txt`**: Vocabulary file used for model tokenization.
+### 📂 Files
+- **`trainig.py`**: Code for fine-tuning GPT-2.
+- **`chatbot.py`**: Script for running the chatbot.
+- **`torch examples.ipynb`**: PyTorch usage examples.
+- **`vocab.txt`**: Tokenization vocabulary.
 - **`wizard_of_oz.txt`**: Sample conversational dataset.
 
-### Getting Started
+### 🛠️ Getting Started
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/jaidh01/ChatGPT-2-Explorer.git
    ```
-2. **Install Requirements**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Train the Model**:
+2. **Train the Model**:
    ```bash
    python trainig.py
    ```
-4. **Run the Chatbot**:
+3. **Run the Chatbot**:
    ```bash
    python chatbot.py
    ```
 
-### Requirements
+### ✅ Requirements
 - Python 3.8+
 - PyTorch
 - Transformers library
 
-### Example Usage
-After running `chatbot.py`, you can engage with the model directly via the terminal, exploring the chatbot's responses.
+### 💬 Example Usage
+After running `chatbot.py`, converse with the model directly via the terminal.
 
-### Future Plans
-- Integrate a web-based UI for a more interactive experience.
-- Add support for larger datasets.
+### 🌱 Future Plans
+- 💻 Web-based UI for a more user-friendly experience
+- 📈 Support for larger datasets
 
-### Contributions
-Contributions are welcome! Feel free to fork the repository, make improvements, and submit a pull request.
+### 🤝 Contributions
+Contributions are welcome! Feel free to fork, improve, and submit a pull request. 😊
